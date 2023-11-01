@@ -11,7 +11,7 @@ and time, to be used to adjust the antenna position for upcoming CubeSat passes.
 GCS will track the CubeSat during the pass time, return to its standby position, and then
 prepare for the next communication session.
 In real time tracking, the system outlined in this project uses the Orbitron program to
-calculate the real-time positions of low-Earth-orbit (LEO) satellites. These generated locations are used to control the orientation of a helical directional antenna that can be used
+calculate the real-time positions of low-Earth-orbit (LEO) satellites. These generated locations are used to control the orientation of a helical directional antenna that can be used
 to communicate with and receive data from NGS.
 Manual mode forces motors to point the antenna manually towards the Satellite using a Joystick.
 
